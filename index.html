@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Random Numbers Guess</title>
+</head>
+<body onload="randomNumbersGenerator()">
+    <p>Guess a number to find out how many times it exists within the array.</p>
+    <p><form>
+        <input type="number" name="Number" max="10" min="1" id="numBox">
+        <input type="submit" id="submitBtn" onclick="showOccurrence(this)">
+    </form></p>
+
+    <p>Refresh the page for a new Array!</p>
+    <p><button id="refresh" onclick="refresh()">Refresh</button></p>
+    
+</body>
+</html>
